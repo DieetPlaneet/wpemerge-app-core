@@ -24,8 +24,14 @@
 			"role": "Developer"
 		}
 	],
+	"repositories": [
+		{
+			"type": "github",
+			"url": "https://github.com/DieetPlaneet/wpemerge.git"
+		}
+	],
 	"require": {
-		"htmlburger/wpemerge": "~0.17.0"
+		"dieetplaneet/wpemerge": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
