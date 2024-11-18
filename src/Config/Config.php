@@ -14,7 +14,7 @@ use WPEmergeAppCore\Concerns\ReadsJsonTrait;
 
 class Config {
 	use ReadsJsonTrait {
-		load as traitLoad;
+		ReadsJsonTrait::load as traitLoad;
 	}
 
 	/**
